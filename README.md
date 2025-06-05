@@ -37,7 +37,7 @@ with zipfile.ZipFile("dataset.zip", 'r') as zip_ref:
 
 Reads and preprocesses the image data:
 ```python
-images, labels = load_data("Q2_dataset/Q2_dataset")
+images, labels = load_data("dataset")
 ```
 
 - `images`: list of NumPy arrays (resized RGB images)
